@@ -1,5 +1,5 @@
 # Meme Generator
 
-Create your Memes usign this simple App.
+Create your Memes using this simple App.
 
 Developed with React JS
