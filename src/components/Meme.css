@@ -1,0 +1,98 @@
+.form-field {
+  border: none;
+  padding: 0;
+  height: 90px;
+  width: 477px;
+  margin: 36px auto 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;  
+  background-color: #ffffff;
+}
+
+.form-field--form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field--inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-field--inputs input {
+  height: 35px;
+  width: 230px;
+  color: #0D0D0D;
+  font-size: 12px;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  text-indent: 11px;
+}
+
+.form-field--inputs input::placeholder {
+  color: #0D0D0D;
+}
+
+.form-field--form button {
+  margin-top: 15px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold; 
+  height: 40px;
+  background-image: linear-gradient(90deg, #711F8D, #A818DA);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.img-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 36px auto;
+  width: 477px;
+  height: 268px;
+}
+
+.meme-img {
+  width: 100%;
+  height: 100%;  
+}
+
+.text-top, .text-bottom {
+  position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.text-top {
+  top: 0;  
+}
+
+.text-bottom {
+  bottom: 0; 
+}
